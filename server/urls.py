@@ -15,7 +15,22 @@ Including another URLconf
 """
 from django.conf.urls import url
 from django.contrib import admin
+from rest_framework.routers import DefaultRouter
+from ad.views import AdViewSet, CategoryViewSet
 
-urlpatterns = [
-    url(r'^admin/', admin.site.urls),
-]
+#
+# urlpatterns = [
+#     url(r'^admin/', admin.site.urls),
+# ]
+
+
+
+
+
+
+
+router = DefaultRouter()
+router.register(prefix='ads', viewset=AdViewSet)
+router.register(prefix='categories', viewset=CategoryViewSet)
+
+urlpatterns = router.urls
