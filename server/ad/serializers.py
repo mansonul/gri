@@ -6,7 +6,7 @@ class CategorySerializer(serializers.ModelSerializer):
     """ Serializer to represent the Category model """
     class Meta:
         model = Category
-        fields = ("category", )
+        fields = ("title", )
 
 class AdSerializer(serializers.ModelSerializer):
     """ Serializer to represent the Ad model """
