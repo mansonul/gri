@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="103ec78e-e65b-443e-be83-69dd7640f280" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/ad/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/ad/models.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/ad/serializers.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/ad/views.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/db.sqlite3" afterPath="$PROJECT_DIR$/server/db.sqlite3" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/config/settings.py" afterPath="$PROJECT_DIR$/server/config/settings.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/urls.py" afterPath="$PROJECT_DIR$/server/urls.py" />
     </list>
     <ignored path="gri.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -31,11 +24,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/server/config/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="41" column="15" selection-start-line="41" selection-start-column="15" selection-end-line="41" selection-end-column="15" />
+            <state relative-caret-position="270">
+              <caret line="39" column="19" selection-start-line="39" selection-start-column="19" selection-end-line="39" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -90,7 +83,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="600">
@@ -137,13 +130,13 @@
       <list>
         <option value="$PROJECT_DIR$/server/config/wsgi.py" />
         <option value="$PROJECT_DIR$/server/manage.py" />
-        <option value="$PROJECT_DIR$/server/config/settings.py" />
         <option value="$PROJECT_DIR$/server/ad/models.py" />
         <option value="$PROJECT_DIR$/server/ad/viwes.py" />
         <option value="$PROJECT_DIR$/server/ad/serializers.py" />
         <option value="$PROJECT_DIR$/server/ad/views.py" />
         <option value="$PROJECT_DIR$/server/urls.py" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/server/config/settings.py" />
       </list>
     </option>
   </component>
@@ -436,14 +429,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/config/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="41" column="15" selection-start-line="41" selection-start-column="15" selection-end-line="41" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/server/ad/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="600">
@@ -489,6 +474,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="600">
           <caret line="40" column="30" selection-start-line="40" selection-start-column="30" selection-end-line="40" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/config/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="39" column="19" selection-start-line="39" selection-start-column="19" selection-end-line="39" selection-end-column="19" />
           <folding />
         </state>
       </provider>
