@@ -1,5 +1,5 @@
 .idea/
-idea/
+/.idea/
 db.*
 
 
@@ -92,3 +92,6 @@ ENV/
 
 # Rope project settings
 .ropeproject
+client/
+node_modules/
+server/node_modules/
